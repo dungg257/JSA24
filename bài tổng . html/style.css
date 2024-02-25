@@ -1,0 +1,41 @@
+/* CSS cho trang web Valentine */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #F44336;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  #gifts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .gift {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .gift img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #F44336;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
